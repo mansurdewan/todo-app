@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todoItem{
+    text-decoration: line-through;
+    text-decoration-color: rgb(233, 23, 23);
+    color: gray;
+    list-style-type:number;
+}
+
+.todoParent{
+    width: fit-content;
+    border: 1px solid peru;
+}
+
+.form {
+    width: 650px;
+    height: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    background-color: #c3e7e8;
+}
+
+
+.flex {
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+
+.input {
+    width: 346px;
+    height: 57px;
+    text-align: center;
+    font-size: 29px;
+    font-family: cursive;
+    background-color: bisque;
+    border-style: none;
+}
+
+.submitButton {
+    width: 101px;
+    height: 57px;
+    font-size: 27px;
+    font-family: cursive;
+    color: rgb(178, 249, 108);
+    background-color: rgb(27, 27, 59);
+    border-style: none;
+}
+
+.todoText{
+    color: rebeccapurple;
+    border: 5px solid red;
+}
+
+.todoItemParent{
+    box-shadow: 2px 2px 15px 15px  #cce6e6;
+    width: 900px;
+    background-color: #fafafa;
+    margin-bottom: 100px;
+    padding: 50px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.singleTodo{
+    box-shadow: 2px 2px 10px 1px gray;
+    font-size: 25px;
+    padding: 10px;
+    background-color: bisque;
+
+    font-family: cursive;
+    
+}
+
+li {
+    list-style-position: inside;
+}
+
+
+.checkbox{
+    width: 25px;
+    height: 25px;
+}
+
+.singleTodoParent{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px ;
+        gap: 15px;
+}
